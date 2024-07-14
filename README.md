@@ -23,7 +23,7 @@ This script automates the management of LDPlayer emulators to run and execute sp
 1. Create a configuration file named `config.json` with the following structure:
     ```json
     {
-        "ldplayer_path": "path_to_ldplayer_dnconsole.exe",
+        "ldplayer_path": "path_to_ldplayer_ldconsole.exe",
         "max_emulators": 2,
         "services_queue": [
             {
@@ -35,7 +35,7 @@ This script automates the management of LDPlayer emulators to run and execute sp
         ]
     }
     ```
-    - `ldplayer_path`: The full path to the LDPlayer dnconsole.exe.
+    - `ldplayer_path`: The full path to the LDPlayer ldconsole.exe.
     - `max_emulators`: The maximum number of emulators to run simultaneously.
     - `services_queue`: A list of services to be automated.
         - `name`: The name of the service.
