@@ -4,7 +4,7 @@
     "services_queue": [
         {
             "name": "blum_auto",
-            "timeout": 21900,
+            "timeout": 86400,
             "indices": [
                 3,
                 4,
