@@ -1,0 +1,16 @@
+{
+    "ldplayer_path": "D:\\LDPlayer\\LDPlayer9\\ldconsole.exe",
+    "max_emulators": 1,
+    "services_queue": [
+        {
+            "name": "blum_auto",
+            "timeout": 21900,
+            "indices": [
+                3,
+                4,
+                5
+            ],
+            "last_run": 0
+        }
+    ]
+}
